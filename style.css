@@ -1,0 +1,190 @@
+
+/* 
+Cor principal: #f4f4f4
+Cor secundária: #333
+Cor de destaque: #fff
+Cor de destaque 2: #000000
+*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #666666;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+
+h1 {
+    padding-top: 80px;
+}
+
+h3, h4 {
+    color: #313131;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header .navegacao {
+    background-color: #333;
+    border: 10px solid #333;
+    width: 100%;
+}
+
+nav ul li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+nav ul li {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+}
+
+
+header h1 {
+    margin: 100px 0;
+}
+
+header {
+    background: #666666;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header a{
+    color: #2c2c2c;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+.intro img {
+    border-radius: 50%;
+    border-style: outset;
+    margin: 10px 0;
+}
+
+.intro p {
+    margin: 5px 0;
+}
+
+section {
+    border-radius: 3%;
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+section h2 {
+    color: #000000;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section div {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #666666;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li img {
+    width: 30px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+    
+    header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    header li {
+        margin: 2px;
+    }
+
+    header .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .dados{
+        order: 2;
+    }
+
+    .apresentacao{
+        order: 1;
+    }
+
+    header img {
+        align-self: center;
+    }
+
+    h1 {
+        padding-top: 250px;
+    }
+
+
+    
+}
